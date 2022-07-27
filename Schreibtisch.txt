@@ -1,0 +1,17 @@
+Computer:
+	1x Thunderbolt:
+		Laden
+		Monitor
+		USB
+		etc.
+
+Schreibtisch:
+	Hidden:
+		1x/2x Monitor (Links/Rechts)
+		LAN
+	4x/6x/7x/8x USB
+	1x/2x Thunderbolt
+	1x SD
+	1x MicroSD
+	1x Höhenverstellung
+	(Steckdose)
