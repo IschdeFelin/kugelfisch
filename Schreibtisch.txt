@@ -1,5 +1,5 @@
 Computer:
-	1x Thunderbolt:
+	1x Thunderbolt 4:
 		Laden
 		Monitor
 		USB
@@ -13,5 +13,16 @@ Schreibtisch:
 	1x/2x Thunderbolt
 	1x SD
 	1x MicroSD
-	1x Höhenverstellung
 	(Steckdose)
+
+Schreibtisch (Doc so rumliegend):
+Hidden:
+  1x/2x Monitor (Links/Rechts)
+  LAN
+Am ext. Doc:
+  2x USB
+  1x SD
+  1x MicroSD
+Im Tisch:
+  1x Thunderbolt
+  (Steckdose)
