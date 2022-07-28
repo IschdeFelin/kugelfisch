@@ -18,13 +18,13 @@
     <h1>Willkommen auf Kugelfisch, der Seite ihres Vertrauens</h1>
     <h3>Login</h3><br>
     <input type="text" id="username" placeholder="Benutzername"><br><br>
-    <input type="password" id="password" placeholder="Passwort"><br><br>
-    <input type="button" id="checkbutton" value="Anmelden" onclick="check()">
+    <input type="password" id="passwordkf" placeholder="Passwort"><br><br>
+    <input type="button" id="checkbuttonkf" value="Anmelden" onclick="check()">
     <script>
         var username = "Admin";
         var password = "geheim";
-        var usernameIn = document.getElementById("username");
-        var passwordIn = document.getElementById("password");
+        var usernameIn = document.getElementById("usernamekf");
+        var passwordIn = document.getElementById("passwordkf");
 
         function check() {
             if (username == usernameIn && password == passwordIn) {
