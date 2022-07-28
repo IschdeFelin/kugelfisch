@@ -23,11 +23,10 @@
     <script>
         var username = "admin";
         var password = "geheim";
-        var usernameIn = document.getElementById("usernamekf");
-        var passwordIn = document.getElementById("passwordkf");
+        var usernameIn = document.getElementById("usernamekf").value;
+        var passwordIn = document.getElementById("passwordkf").value;
 
         function check() {
-            window.location.href = 'menu.html';
             if (username == usernameIn && password == passwordIn) {
                 window.location.href = 'menu.html';
             }
