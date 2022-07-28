@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <title>Kugelfisch</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kugelfisch</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: lightblue;
+        }
+    </style>
 </head>
+
 <body>
     <h1>Willkommen auf Kugelfisch, der Seite ihres Vertrauens</h1>
     <h3>Login</h3><br>
@@ -18,12 +25,13 @@
         var password = "geheim";
         var usernameIn = document.getElementById("username");
         var passwordIn = document.getElementById("password");
-      
-        function check(){
-            if(username == usernameIn && password == passwordIn){
-                window.location.href='menu.html';
+
+        function check() {
+            if (username == usernameIn && password == passwordIn) {
+                window.location.href = 'menu.html';
             }
         }
     </script>
 </body>
+
 </html>
