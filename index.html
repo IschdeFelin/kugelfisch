@@ -14,11 +14,13 @@
     <input type="password" id="password" placeholder="Passwort"><br><br>
     <input type="button" id="checkbutton" value="Anmelden" onclick="check()">
     <script>
-        var username = "MonstrumMysteryLPYT";
-        var passwort = "1234";
-        var in = document.getElementById.xyz;
+        var username = "Admin";
+        var password = "geheim";
+        var usernameIn = document.getElementById("username");
+        var passwordIn = document.getElementById("password");
+      
         function check(){
-            if(in == passwort){
+            if(username == usernameIn && password == passwordIn){
                 console.log("Fertig");
             }
         }
